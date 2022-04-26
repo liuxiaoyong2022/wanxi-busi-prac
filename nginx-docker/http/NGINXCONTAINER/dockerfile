@@ -1,0 +1,7 @@
+FROM nginx:1.21.1
+
+
+COPY mime.conf /etc/nginx.custom.d/
+COPY vue-hello-world.conf /etc/nginx.custom.d/
+COPY nginx.conf /etc/nginx/nginx.conf
+

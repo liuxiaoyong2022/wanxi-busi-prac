@@ -1,0 +1,91 @@
+{
+  "name": "wanxi-busi-prac",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.11.4",
+    "@jeecg/antd-online-mini": "3.1.0-beta",
+    "@tinymce/tinymce-vue": "2.1.0",
+    "@toast-ui/editor": "^2.1.2",
+    "ant-design-vue": "^1.7.2",
+    "axios": "^0.18.0",
+    "china-area-data": "^5.0.1",
+    "clipboard": "^2.0.4",
+    "codemirror": "^5.46.0",
+    "cron-parser": "^2.10.0",
+    "dayjs": "^1.8.0",
+    "dom-align": "1.12.0",
+    "element-ui": "^1.4.6",
+    "enquire.js": "^2.1.6",
+    "js-cookie": "^2.2.0",
+    "lodash.get": "^4.4.2",
+    "lodash.pick": "^4.4.0",
+    "md5": "^2.2.1",
+    "nprogress": "^0.2.0",
+    "qiankun": "^2.5.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^8.0.1",
+    "tinymce": "5.4.1",
+    "viser-vue": "^2.4.8",
+    "vue": "^2.6.10",
+    "vue-area-linkage": "^5.1.0",
+    "vue-cropper": "^0.5.4",
+    "vue-i18n": "^8.7.0",
+    "vue-loader": "^15.7.0",
+    "vue-ls": "^3.2.0",
+    "vue-photo-preview": "^1.1.3",
+    "vue-print-nb-jeecg": "^1.0.9",
+    "vue-router": "^3.0.1",
+    "vue-splitpane": "^1.0.4",
+    "vue-style-loader": "^3.1.0",
+    "vue-template-compiler": "^2.6.14",
+    "vuedraggable": "^2.20.0",
+    "vuex": "^3.1.0",
+    "vxe-table": "2.9.13",
+    "vxe-table-plugin-antd": "1.8.10",
+    "wanxi-vue-component": "^1.0.7",
+    "wanxi-vue-fm": "^1.2.15",
+    "xe-utils": "2.4.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "compression-webpack-plugin": "^3.1.0",
+    "eslint": "^7.32.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^8.0.3",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "postcss": "^8.1.9",
+    "postcss-import": "12.0.1",
+    "postcss-url": "10.1.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

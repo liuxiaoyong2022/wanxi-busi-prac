@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  vue-nginx:
+    container_name: vue-nginx
+    build: ./NGINXCONTAINER
+#    image: nginxapp
+    ports:
+      - "9090:8080"
+    volumes:
+      - ../../dist:/usr/share/nginx/html
+    networks:
+      - default
+
+
+networks:
+  default:
+    driver: bridge

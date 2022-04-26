@@ -1,0 +1,15 @@
+1.create network
+
+docker network create --driver=bridge --subnet=172.21.0.0/24 ng_ssl_network
+
+
+ docker-compose down
+ docker-compose up --build --force-recreate
+
+
+http://127.0.0.1:9090?name=lxy&password=hello1234
+
+
+2. run nginx example
+
+ docker run -p 8080:80 --name lxy-nginx nginx:1.21.1
