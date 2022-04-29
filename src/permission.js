@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import router from './router'
-import store from 'wanxi-vue-fm/src/store'
+// import store from 'wanxi-vue-fm/src/store'
+import store from './local-store'
 import NProgress from 'nprogress' // progress bar
 import 'nprogress/nprogress.css' // progress bar style
 // import notification from 'ant-design-vue/es/notification'
@@ -23,6 +24,7 @@ router.beforeEach((to, from, next) => {
       NProgress.done()
     } else {
       if (store.getters.permissionList.length === 0) {
+          alert("permission check1 !");
         store.dispatch('GetPermissionList').then(res => {
               const menuData = res.result.menu;
               //console.log(res.message)
@@ -56,6 +58,7 @@ router.beforeEach((to, from, next) => {
             })
           })
       } else {
+          alert("permission check2 !");
         next()
       }
     }

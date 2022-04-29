@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import { ACCESS_TOKEN } from "wanxi-vue-fm/src/store/mutation-types"
-import store from 'wanxi-vue-fm/src/store'
+import store from '../local-store'
 /**
  * 单点登录
  */

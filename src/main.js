@@ -5,7 +5,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import Storage from 'vue-ls'
 import router from './router'
-import store from 'wanxi-vue-fm/src/store/'
+// import store from 'wanxi-vue-fm/src/store/'
+import store from './local-store/'
 import { VueAxios } from "wanxi-vue-fm/src/utils/request"
 // import permission2 from '@/permission/permission'
 require('@jeecg/antd-online-mini')

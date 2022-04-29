@@ -48,8 +48,8 @@
     "vuex": "^3.1.0",
     "vxe-table": "2.9.13",
     "vxe-table-plugin-antd": "1.8.10",
-    "wanxi-vue-component": "^1.0.7",
-    "wanxi-vue-fm": "^1.2.15",
+    "wanxi-vue-component": "^1.0.13",
+    "wanxi-vue-fm": "^1.2.36",
     "xe-utils": "2.4.8"
   },
   "devDependencies": {
