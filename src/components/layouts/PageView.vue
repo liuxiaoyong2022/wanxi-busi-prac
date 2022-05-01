@@ -9,7 +9,7 @@
 </template>
 
 <script>
-  import PageLayout from '../page/PageLayout'
+  import PageLayout from 'wanxi-vue-component/src/components/page/PageLayout'
   import RouteView from './RouteView'
 
   export default {

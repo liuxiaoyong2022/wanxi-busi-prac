@@ -7,7 +7,7 @@
 <script>
   import Vue from 'vue'
   import { ACCESS_TOKEN } from "wanxi-vue-fm/src/store/mutation-types"
-  import PageLayout from '../page/PageLayout'
+  import PageLayout from 'wanxi-vue-component/src/components/page/PageLayout'
   import RouteView from './RouteView'
 
   export default {

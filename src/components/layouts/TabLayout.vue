@@ -35,8 +35,8 @@
 </template>
 
 <script>
-  import GlobalLayout from '@/components/page/GlobalLayout'
-  import Contextmenu from '@/components/menu/Contextmenu'
+  import GlobalLayout from 'wanxi-vue-component/src/components/page/GlobalLayout'
+  import Contextmenu from 'wanxi-vue-component/src/components/menu/Contextmenu'
   import { mixin, mixinDevice } from 'wanxi-vue-fm/src/utils/mixin.js'
   import { triggerWindowResizeEvent } from 'wanxi-vue-fm/src/utils/util'
   import Vue from 'vue'

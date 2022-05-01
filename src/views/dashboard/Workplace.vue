@@ -113,7 +113,7 @@
   import { timeFix } from "wanxi-vue-fm/src/utils/util"
   import {mapGetters} from "vuex"
 
-  import PageLayout from '@/components/page/PageLayout'
+  import PageLayout from 'wanxi-vue-component/src/components/page/PageLayout'
   import HeadInfo from '@/components/tools/HeadInfo'
   import Radar from '@/components/chart/Radar'
   import { getRoleList, getServiceList, getFileAccessHttpUrl } from "wanxi-vue-fm/src/api/manage"

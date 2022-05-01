@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import GlobalLayout from '@/components/page/GlobalLayout'
+  import GlobalLayout from 'wanxi-vue-component/src/components/page/GlobalLayout'
 
   export default {
     name: "BasicLayout",
