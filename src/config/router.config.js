@@ -58,6 +58,7 @@ export const constantRouterMap = [
         name: 'goto-hello-world',
         component: () => import(/* webpackChunkName: "user" */ '@/components/HelloWorld')
       }
+
     ]
   },
 

@@ -139,10 +139,12 @@
         let waitRouter = this.pageList[index]
         // 【TESTA-523】修复：不允许重复跳转路由异常
         // alert("waitRouter.fullPath-->"+waitRouter.fullPath   +"    this.$route.fullPath--->"+this.$route.fullPath);
-        if (waitRouter.fullPath !== this.$route.fullPath) {
+        if (waitRouter && waitRouter.fullPath && waitRouter.fullPath !== this.$route.fullPath) {
           this.$router.push(Object.assign({}, waitRouter))
         }
-        this.changeTitle(waitRouter.meta.title)
+        if(waitRouter && waitRouter.meta) {
+          this.changeTitle(waitRouter.meta.title)
+        }
       },
       'multipage': function(newVal) {
         if(this.reloadFlag){
