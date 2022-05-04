@@ -134,9 +134,11 @@
         }
       },
       'activePage': function(key) {
+
         let index = this.linkList.lastIndexOf(key)
         let waitRouter = this.pageList[index]
         // 【TESTA-523】修复：不允许重复跳转路由异常
+        // alert("waitRouter.fullPath-->"+waitRouter.fullPath   +"    this.$route.fullPath--->"+this.$route.fullPath);
         if (waitRouter.fullPath !== this.$route.fullPath) {
           this.$router.push(Object.assign({}, waitRouter))
         }
@@ -263,6 +265,7 @@
       },
       onMenuSelect(key, target) {
         let pageKey = this.getPageKey(target)
+        alert("onMenuSelect--->"+pageKey);
         switch (key) {
           case '1':
             this.closeLeft(pageKey)
@@ -325,6 +328,7 @@
       },
       //update-begin-author:taoyan date:20190430 for:动态路由title显示配置的菜单title而不是其对应路由的title
       dynamicRouterShow(key,title){
+        alert("dynamicRouterShow recived emit  key---->"+key);
         let keyIndex = this.linkList.indexOf(key)
         if(keyIndex>=0){
           let currRouter = this.pageList[keyIndex]

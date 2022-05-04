@@ -145,9 +145,9 @@
   import RankList from '@/components/chart/RankList'
   import Bar from '@/components/chart/Bar'
   import LineChartMultid from '@/components/chart/LineChartMultid'
-  import HeadInfo from '@/components/tools/HeadInfo.vue'
+  import HeadInfo from 'wanxi-vue-component/src/components/tools/HeadInfo.vue'
 
-  import Trend from '@/components/Trend'
+  import Trend from 'wanxi-vue-component/src/components/Trend'
   import { getLoginfo,getVisitInfo } from 'wanxi-vue-fm/src/api/api'
 
   const rankList = []

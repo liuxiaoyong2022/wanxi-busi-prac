@@ -48,7 +48,7 @@ import config from '@/defaultSettings'
 import JDictSelectTag from './components/dict/index.js'
 import hasPermission from 'wanxi-vue-fm/src/utils/hasPermission'
 import vueBus from 'wanxi-vue-fm/src/utils/vueBus';
-import JeecgComponents from '@/components/jeecg/index'
+import JeecgComponents from 'wanxi-vue-component/src/components/jeecg/index'
 import '@/assets/less/JAreaLinkage.less'
 import VueAreaLinkage from 'vue-area-linkage'
 import 'wanxi-vue-component/src/components/jeecg/JVxeTable/install'

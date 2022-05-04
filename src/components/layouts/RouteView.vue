@@ -18,7 +18,6 @@
       includedComponents() {
         const includedRouters = Vue.ls.get(CACHE_INCLUDED_ROUTES)
         console.log("includedRouters：" + includedRouters)
-
         //如果是缓存路由，则加入到 cache_included_routes
         if (this.$route.meta.keepAlive && this.$route.meta.componentName) {
           let cacheRouterArray = Vue.ls.get(CACHE_INCLUDED_ROUTES) || []

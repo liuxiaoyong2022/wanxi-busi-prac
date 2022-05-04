@@ -1,6 +1,8 @@
 
 import { isURL } from 'wanxi-vue-fm/src/utils/validate'
 import onlineCommons from '@jeecg/antd-online-mini'
+import Vue from "vue";
+import {ACCESS_TOKEN} from "wanxi-vue-fm/src/store/mutation-types";
 
 
 
@@ -34,7 +36,7 @@ function  generateChildRouters (data) {
     }else{
       component = "views/"+item.component;
     }
-
+   // alert("component=--->"+component)
     // eslint-disable-next-line
     let URL = (item.meta.url|| '').replace(/{{([^}}]+)?}}/g, (s1, s2) => eval(s2)) // URL支持{{ window.xxx }}占位符变量
     if (isURL(URL)) {
@@ -63,7 +65,7 @@ function  generateChildRouters (data) {
     }else{
       componentPath = resolve => require(['@/' + component+'.vue'], resolve)
     }
-
+    // console.log("generateChildRouters componentPath-->"+componentPath +"   item.name:"+item.name);
     let menu =  {
       path: item.path,
       name: item.name,

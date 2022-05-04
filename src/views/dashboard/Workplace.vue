@@ -114,7 +114,7 @@
   import {mapGetters} from "vuex"
 
   import PageLayout from 'wanxi-vue-component/src/components/page/PageLayout'
-  import HeadInfo from '@/components/tools/HeadInfo'
+  import HeadInfo from 'wanxi-vue-component/src/components/tools/HeadInfo'
   import Radar from '@/components/chart/Radar'
   import { getRoleList, getServiceList, getFileAccessHttpUrl } from "wanxi-vue-fm/src/api/manage"
 

@@ -24,7 +24,7 @@ router.beforeEach((to, from, next) => {
       NProgress.done()
     } else {
       if (store.getters.permissionList.length === 0) {
-          alert("permission check1 !");
+          alert(" check1  loader permission !");
         store.dispatch('GetPermissionList').then(res => {
               const menuData = res.result.menu;
               //console.log(res.message)
@@ -58,7 +58,8 @@ router.beforeEach((to, from, next) => {
             })
           })
       } else {
-          alert("permission check2 !");
+
+          console.log("to-->"+to.fullPath +"   token:"+Vue.ls.get(ACCESS_TOKEN));
         next()
       }
     }
