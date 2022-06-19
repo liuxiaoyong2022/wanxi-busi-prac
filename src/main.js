@@ -55,6 +55,11 @@ import 'wanxi-vue-component/src/components/jeecg/JVxeTable/install'
 import 'wanxi-vue-component/src/components/JVxeCells/install'
 
 
+// ElementUI 放置最前，Antd放置于后
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
+
 //表单验证
 import { rules } from 'wanxi-vue-fm/src/utils/rules'
 Vue.prototype.rules = rules

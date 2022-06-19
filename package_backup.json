@@ -20,8 +20,8 @@
     "cron-parser": "^2.10.0",
     "dayjs": "^1.8.0",
     "dom-align": "1.12.0",
-    "element-ui": "^2.15.8",
     "enquire.js": "^2.1.6",
+    "element-ui": "^2.15.8",
     "js-cookie": "^2.2.0",
     "lodash.get": "^4.4.2",
     "lodash.pick": "^4.4.0",
@@ -52,6 +52,7 @@
     "wanxi-vue-fm": "^1.2.42",
     "workflow-bpmn-modeler": "^0.2.8",
     "xe-utils": "2.4.8"
+
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -82,7 +83,37 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "generator-star-spacing": "off",
+      "no-mixed-operators": 0,
+      "vue/max-attributes-per-line": [
+        2,
+        {
+          "singleline": 5,
+          "multiline": {
+            "max": 1,
+            "allowFirstLine": false
+          }
+        }
+      ],
+      "vue/attribute-hyphenation": 0,
+      "vue/html-self-closing": 0,
+      "vue/component-name-in-template-casing": 0,
+      "vue/html-closing-bracket-spacing": 0,
+      "vue/singleline-html-element-content-newline": 0,
+      "vue/no-unused-components": 0,
+      "vue/multiline-html-element-content-newline": 0,
+      "vue/no-use-v-if-with-v-for": 0,
+      "vue/html-closing-bracket-newline": 0,
+      "vue/no-parsing-error": 0,
+      "no-tabs": 0,
+      "indent": [
+        "off",
+        2
+      ],
+      "no-console": 0,
+      "space-before-function-paren": 0
+    }
   },
   "browserslist": [
     "> 1%",
