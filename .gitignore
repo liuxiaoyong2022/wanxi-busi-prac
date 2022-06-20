@@ -4,6 +4,8 @@ node_modules
 .env
 .env.development
 .env.production
+.env.cloud
+.env.test
 .npmrc
 package-lock.json
 
@@ -11,6 +13,7 @@ package-lock.json
 # local env files
 .env.local
 .env.*.local
+
 
 # Log files
 npm-debug.log*

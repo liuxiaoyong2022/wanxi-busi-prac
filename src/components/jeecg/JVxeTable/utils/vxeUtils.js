@@ -1,5 +1,5 @@
 import { getVmParentByName } from 'wanxi-vue-fm/src/utils/util'
-import { JVXETypes } from '@comp/jeecg/JVxeTable/index'
+import { JVXETypes } from 'wanxi-vue-component/src/components/jeecg/JVxeTable/index'
 
 export const VALIDATE_FAILED = Symbol()
 
