@@ -1,6 +1,11 @@
 .DS_Store
 node_modules
 /dist
+.env
+.env.development
+.env.production
+.npmrc
+package-lock.json
 
 
 # local env files
