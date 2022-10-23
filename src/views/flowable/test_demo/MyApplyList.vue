@@ -265,6 +265,7 @@
         ],
         url: {
           list: "/test_demo/testDemo/myApplylist",
+          // list: "/flowable/task/myProcess",
           delete: "/test_demo/testDemo/delete",
           deleteBatch: "/test_demo/testDemo/deleteBatch",
           exportXlsUrl: "/test_demo/testDemo/exportXls",
